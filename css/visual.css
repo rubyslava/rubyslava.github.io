@@ -23,21 +23,43 @@ header h2 {
     font-weight: normal;
 }
 
-.offers .span4 div {
+.offer div {
     text-align: center;
     padding: 0 1em;
 }
 
-.offers .span4 img {
+.offer img.offer-icon {
     padding: 1em 0;
     width: 100px;
     height: 100px;
 }
 
-.offers .span4 p {
+.offer p {
     font-size: 1.25em;
 }
 
-.offers .btn {
+.offer .btn {
     margin-top: 1em;
+    font-weight: bold;
+}
+
+.sponsors img {
+    max-height: 60px;
+    margin: 1em;
+}
+
+.sponsors a {
+    opacity: 0.5;
+}
+
+.sponsors a:hover {
+    opacity: 1;
+}
+
+.btn-fb {
+    background-color: #3B5998;
+}
+
+.btn-fb:hover {
+    background-color: #4c84d5;
 }
