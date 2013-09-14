@@ -1,0 +1,43 @@
+body {
+    padding: 2em 0;
+}
+
+header, section {
+    padding: 2em 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header h1 div.logo {
+    background: url('../images/rubyslava.png') 0 center no-repeat;
+    background-size: 150px;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+header h2 {
+    font-weight: normal;
+}
+
+.offers .span4 div {
+    text-align: center;
+    padding: 0 1em;
+}
+
+.offers .span4 img {
+    padding: 1em 0;
+    width: 100px;
+    height: 100px;
+}
+
+.offers .span4 p {
+    font-size: 1.25em;
+}
+
+.offers .btn {
+    margin-top: 1em;
+}
