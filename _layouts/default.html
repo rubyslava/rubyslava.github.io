@@ -12,6 +12,16 @@
 
     <link rel="shortcut icon" href="/images/favicon.png">
 
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:image" content="{{ site.url }}/images/rubyslava.png" />
+    {% if page.description %}<meta property="og:description" content="{{ page.description }}" />{% endif %}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@rubyslava">
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% if page.description %}<meta name="twitter:description" content="">{% endif %}
+    <meta name="twitter:image:src" content="{{ site.url }}/images/rubyslava.png">
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
