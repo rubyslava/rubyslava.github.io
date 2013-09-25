@@ -1,4 +1,4 @@
-body {
+body, section {
     padding: 2em 0;
 }
 
@@ -62,4 +62,22 @@ header h2 {
 
 .btn-fb:hover {
     background-color: #4c84d5;
+}
+
+.outlinks img.offer-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.outlinks h3 {
+    font-size: 1.5em;
+    word-wrap: break-word;
+}
+
+.outlinks p {
+    font-size: 1em;
+}
+
+.outlinks .offer div {
+    padding: 1em 0.5em;
 }
