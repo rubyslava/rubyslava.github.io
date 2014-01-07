@@ -6,8 +6,18 @@ header {
     padding: 1em 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+}
+
+header h3, header h3 a {
+    color: darkgray;
+    font-weight: normal;
+}
+
+header h3 {
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 header h1 div.logo {
