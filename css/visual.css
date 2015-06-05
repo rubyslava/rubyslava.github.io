@@ -2,11 +2,11 @@ body, section {
     padding: 2em 0;
 }
 
-header {
+.default header {
     padding: 1em 0;
 }
 
-h1, h2, h3 {
+.default h1, .default h2, .default h3 {
     text-align: center;
 }
 
@@ -91,3 +91,24 @@ header h2 {
 .outlinks .offer div {
     padding: 1em 0.5em;
 }
+
+.article header {
+    margin-bottom: 2em;
+}
+
+.article header h1 img {
+    margin-right: 0.5em;
+}
+
+.article h2, .article h3 {
+    margin-top: 1em;
+}
+
+.article table .popularity {
+    text-align: right;
+}
+
+.article {
+    font-size: 1em;
+}
+
